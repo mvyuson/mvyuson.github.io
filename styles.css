@@ -1,0 +1,76 @@
+body {
+    letter-spacing: 10px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.parallax {
+	background-image: url("media/images/ph-b-fR9ylpFJDQY-unsplash.jpg");
+	height: 100vh;
+	/*opacity: 0.65;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro-box {
+	background: none !important;
+    height: 100%;
+}
+
+.f-project {
+	text-align: justify;
+}
+
+h1 {
+	width: fit-content;
+	opacity: 0.65;
+	background-color: #111;
+    color: #fff !important;
+    padding: 18px;
+    letter-spacing: 10px;
+    font-weight: 400 !important;
+}
+
+h3 {
+	letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
+
+p {
+	letter-spacing: 0.5px;
+	color: #777;
+}
+
+.read-more {
+	background-color: #111;
+	color: #fff;
+    padding: 12px !important;
+    letter-spacing: 0.5px;
+    border-radius: 0 !important;
+    opacity: 0.7;
+}
+
+.read-more:hover {
+	opacity: 0.9;
+	color: #fff;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.project-img {
+	overflow: hidden;
+}
+
