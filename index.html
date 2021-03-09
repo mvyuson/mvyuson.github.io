@@ -6,28 +6,56 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/> -->
 	
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
 	<title>Minette Vera Portfolio</title>
 </head>
 <body>
 	<div class="parallax">
 		<div class="jumbotron intro-box d-flex align-items-center">
+			<div class="social-links">
+				<a href="https://github.com/mvyuson?tab=repositories">
+					<ion-icon name="logo-github"></ion-icon>
+				</a>
+				<a href="https://www.linkedin.com/in/minette-vera-yuson-840651206/">
+					<ion-icon name="logo-linkedin"></ion-icon>
+				</a>
+			</div>
 			<div class="container">
 				<h1>Hi</h1>
 				<h1>I'm Minette</h1>
 				<h1>A Web Developer</h1>		
 			</div>
+			<button class="scroll-down-btn bg-transparent border-0" id="scrollDown"><i class="arrow down"></i></button>
 		</div>
 	</div>
-
-	
-	<div class="f-project">
+	<div class="f-project p-5" id="projectScroll">
+		<h3 class="d-flex justify-content-around">PROJECTS</h3>
+		<!-- <hr class="d-flex justify-content-around"> -->
 		<div class="row">
-			<div class="col-7 pt-5 pl-5">
+			<div class="col p-5">
+				<div class="card border-0 rounded-0"></div>
+			</div>
+			<div class="col p-5">
+				<div class="card project-2 border-0 rounded-0">
+					<div id="projectTrello" class="project-preview">
+						<div class="project-inner-preview">
+							<h5 class="project-preview-title text-decoration-none">TRELLO</h5>
+							<div class="project-preview-tech d-flex flex-wrap align-content-around">
+								<span class="text-decoration-none">HTML</span>
+								<span class="text-decoration-none">CSS</span>
+								<span class="text-decoration-none">JQuery</span>
+								<span class="text-decoration-none">AJAX</span>
+								<span class="text-decoration-none">DJANGO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col p-5">
+				<div class="card border-0 rounded-0"></div>
+			</div>
+			<!-- <div class="col-7 pt-5 pl-5">
 				<div class="card border-0">
 					<div class="card-body">
 						<h3 class="card-title">Trello App</h3>
@@ -39,15 +67,15 @@
                 		</a>
 					</div>
 				</div>
-			</div>
-			<div class="project-img col-5 p-0">
-				<img src="media/images/bench-accounting-nvzvOPQW0gc-unsplash.jpg" height="300">
-			</div>
+			</div> -->
 		</div>
 	</div>
-	
-	<div class="parallax">
-		<h1>Ciao</h1>
-	</div>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
 </body>
 </html>
